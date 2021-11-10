@@ -58,15 +58,15 @@ class AgoraVideoViewer extends StatefulWidget {
 class _AgoraVideoViewerState extends State<AgoraVideoViewer> {
   @override
   void initState() {
+    super.initState();
     widget.client.sessionController
         .updateLayoutType(updatedLayout: widget.layoutType);
-    super.initState();
   }
 
   @override
   void dispose() {
-    super.dispose();
     widget.client.sessionController.dispose();
+    super.dispose();
   }
 
   @override
