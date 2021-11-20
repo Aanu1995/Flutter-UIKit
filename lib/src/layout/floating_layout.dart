@@ -103,7 +103,7 @@ class _FloatingLayoutState extends State<FloatingLayout> {
                                               .localUid
                                       ? Expanded(
                                           child: Container(
-                                            color: Colors.black,
+                                            color: Colors.black54,
                                             child: Stack(
                                               children: [
                                                 Center(
@@ -381,7 +381,7 @@ class _FloatingLayoutState extends State<FloatingLayout> {
                       child: Center(
                         child: Text(
                           'Waiting for the host to join.',
-                          style: TextStyle(color: Colors.black),
+                          style: TextStyle(color: Colors.black54),
                         ),
                       ),
                     ),

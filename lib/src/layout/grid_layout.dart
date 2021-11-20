@@ -90,7 +90,7 @@ class _GridLayoutState extends State<GridLayout> {
           child: Center(
             child: Text(
               'Waiting for the host to join',
-              style: TextStyle(color: Colors.black),
+              style: TextStyle(color: Colors.black54),
             ),
           ),
         ),

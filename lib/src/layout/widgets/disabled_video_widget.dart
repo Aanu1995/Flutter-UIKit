@@ -12,7 +12,7 @@ class _DisabledVideoWidgetState extends State<DisabledVideoWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.black,
+      color: Colors.black54,
       padding: const EdgeInsets.all(8.0),
       child: Center(
         child: Image.network(
