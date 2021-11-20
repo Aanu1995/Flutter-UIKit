@@ -108,7 +108,7 @@ class _FloatingLayoutState extends State<FloatingLayout> {
                                               children: [
                                                 Center(
                                                   child: Text(
-                                                    'Local User',
+                                                    '',
                                                     style: TextStyle(
                                                       color: Colors.white,
                                                     ),
@@ -182,7 +182,7 @@ class _FloatingLayoutState extends State<FloatingLayout> {
                                               child: Stack(
                                                 children: [
                                                   Container(
-                                                    color: Colors.black,
+                                                    color: Colors.black54,
                                                   ),
                                                   widget.disabledVideoWidget,
                                                   Positioned.fill(
@@ -341,10 +341,10 @@ class _FloatingLayoutState extends State<FloatingLayout> {
                             : Stack(
                                 children: [
                                   Container(
-                                    color: Colors.black,
+                                    color: Colors.black54,
                                     child: Center(
                                       child: Text(
-                                        'Local User',
+                                        '',
                                         style: TextStyle(color: Colors.white),
                                       ),
                                     ),
